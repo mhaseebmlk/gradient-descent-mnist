@@ -1,0 +1,5 @@
+- Both programs run without any bug.
+- Because of the nature of the algorithm, every epoch of Batch Gradient Descent (gd.py) takes ~1 minutes for feature type 2 and ~3 minutes for feature type 1.
+	Stochastic Gradient Descent is considerably faster.
+- For Batch Gradient Descent, the accuracy values begins to change after the first 3-4 epochs.
+- The np.exp() function gives overflow warnings. Please ignore those.
